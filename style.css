@@ -1,0 +1,31 @@
+body {
+margin: 0%;
+padding: 0%;
+background-color: aqua;
+}
+
+div {
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    background-color: white;
+}
+
+a:hover {
+    transform: scale(1.1);
+  }
+
+
+#a { flex: 1; background-color: blue;}
+#b { flex: 1; background-color: green;}
+#c { flex: 1; background-color: orange;}
+#d { flex: 1; background-color: yellow;}
+#e { flex: 1; background-color: purple;}
+#f { flex: 1; background-color: red;}
+
+
+
